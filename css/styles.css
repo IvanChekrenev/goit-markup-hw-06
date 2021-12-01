@@ -473,6 +473,9 @@ button {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-footer {
   margin-right: 70px;
@@ -513,9 +516,13 @@ button {
 }
 
 /* ---------------------------join---------------------------- */
+
 .container.footer {
   display: flex;
   align-items: baseline;
+}
+.join {
+  margin-right: 93px;
 }
 
 .join-headers {
@@ -544,6 +551,27 @@ button {
 .social-links.footer:hover,
 .social-links.footer:focus {
   background-color: var(--third-footertext-color);
+}
+/* ----------------------subscription---------------------------- */
+.subscription-title {
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.subscription-input {
+  background-color: #2f303a;
+  width: 358px;
+  height: 50px;
+  padding: 15px auto 15px 15px;
 }
 
 /* ---------------------------Portfolio---------------------- */
