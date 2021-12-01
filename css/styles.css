@@ -566,12 +566,56 @@ button {
 
   color: #ffffff;
 }
+.subscription-form {
+  display: flex;
+}
 
 .subscription-input {
   background-color: #2f303a;
   width: 358px;
   height: 50px;
-  padding: 15px auto 15px 15px;
+  margin-right: 12px;
+  padding-left: 16px;
+}
+
+.subscription-input::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscription-svg {
+  margin-top: 13px;
+}
+
+.subscription-button {
+  width: 200px;
+  height: 50px;
+  padding-left: 29px;
+  padding-right: 28px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  justify-content: space-between;
+
+  color: #ffffff;
+  background-color: var(--main-logo-color);
 }
 
 /* ---------------------------Portfolio---------------------- */
@@ -729,11 +773,24 @@ button {
 
   width: 528px;
   height: 581px;
+  padding: 40px 39px 40px 41px;
 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+.modal-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .button-modal-closed {

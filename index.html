@@ -405,12 +405,20 @@
     </div>
 <!-- -------------------------- subscription ------------------------>
 
-    <div class="subscription">
-        <p class="subscription-title">Подпишитесь на рассылку</p>
-        <input type="email" class="subscription-input" placeholder="Email">
-        <button type="submit" class="subscription-button">Подписаться <span> svg </span></button>
-        
+    <div class=""><p class="subscription-title">Подпишитесь на рассылку</p>
+    
+    <form action="#" class="subscription-form">
+    <input type="email" class="subscription-input" placeholder="Email">    
+    <button type="submit" class="subscription-button" >Подписаться <span>
+    <svg class="subscription-svg" width=24 height=24>
+        <use href="./images/icons.svg#icon-send">    
+        </use>
+    </svg>
+    </span></button>
+    </form>
     </div>
+    
+    
 
     </div>
  </footer>
@@ -426,7 +434,8 @@
 
                 </use>
             </svg>
-        </button>
+            </button>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
     </div>
 </div>
  
@@ -435,4 +444,4 @@
 </html>
 
 
-<!-- <img src="./images/closemodal.svg" alt="cross" width="30px" height="30px"> -->
+
