@@ -594,13 +594,12 @@ button {
 
 .subscription-svg {
   margin-top: 13px;
+  margin-left: 10px;
 }
 
 .subscription-button {
   width: 200px;
   height: 50px;
-  padding-left: 29px;
-  padding-right: 28px;
 
   font-family: Roboto;
   font-style: normal;
@@ -612,7 +611,7 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  justify-content: space-between;
+  justify-content: center;
 
   color: #ffffff;
   background-color: var(--main-logo-color);
@@ -790,7 +789,37 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 
+  margin-bottom: 30px;
+
   color: #212121;
+}
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 28px;
+  padding-left: 12px;
+}
+.modal-form-button {
+  width: 200px;
+  height: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  justify-content: center;
+
+  color: #ffffff;
+  background-color: var(--main-logo-color);
 }
 
 .button-modal-closed {
