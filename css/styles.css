@@ -898,6 +898,10 @@ button {
   border: none;
 }
 
+.modal-checkbox:focus + .checkbox-label .custom-chek-icon {
+  border-color: #2196f3;
+}
+
 .checkbox-label {
   width: 401px;
   font-size: 14px;
@@ -918,7 +922,8 @@ button {
   align-items: center;
   justify-content: center;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-check {
   fill: #ffffff;
